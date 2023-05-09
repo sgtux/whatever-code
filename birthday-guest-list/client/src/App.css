@@ -1,0 +1,23 @@
+body {
+  background-color: #555;
+  color: white;
+}
+
+.tree {
+  flex: 1;
+  font-size: 16;
+}
+
+.tree span {
+  transition: 200ms;
+}
+
+.tree li {
+  padding: 2px;
+}
+
+.tree li::marker {
+  content: '- ';
+  font-size: 18px;
+  margin-left: 2px;
+}
